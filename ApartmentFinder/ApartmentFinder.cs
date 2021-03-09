@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AppartmentFinder
+namespace ApartmentFinder
 {
-  public class AppartmentFinder
+  public class ApartmentFinder
   {
     public int Find(Dictionary<string, bool>[] blocks)
     {

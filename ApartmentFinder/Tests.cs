@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace AppartmentFinder
+namespace ApartmentFinder
 {
   public class Tests
   {
@@ -20,7 +20,7 @@ namespace AppartmentFinder
           }
       };
 
-      var finder = new AppartmentFinder();
+      var finder = new ApartmentFinder();
       int result = finder.Find(blocks);
 
       Assert.AreEqual(1, result);
@@ -39,7 +39,7 @@ namespace AppartmentFinder
         }
       };
 
-      var finder = new AppartmentFinder();
+      var finder = new ApartmentFinder();
       int result = finder.Find(blocks);
 
       Assert.AreEqual(0, result);
@@ -67,7 +67,7 @@ namespace AppartmentFinder
         }
       };
 
-      var finder = new AppartmentFinder();
+      var finder = new ApartmentFinder();
       int result = finder.Find(blocks);
 
       Assert.AreEqual(3, result);
@@ -104,7 +104,7 @@ namespace AppartmentFinder
         }
       };
 
-      var finder = new AppartmentFinder();
+      var finder = new ApartmentFinder();
       int result = finder.Find(blocks);
 
       Assert.AreEqual(3, result);
@@ -177,7 +177,7 @@ namespace AppartmentFinder
         }
       };
 
-      var finder = new AppartmentFinder();
+      var finder = new ApartmentFinder();
       int result = finder.Find(blocks);
 
       Assert.AreEqual(15, result);
